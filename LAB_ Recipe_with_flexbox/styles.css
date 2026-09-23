@@ -27,9 +27,9 @@ header {
    flex-basis: 100%;
 }
 
-/* I did what it said but this part looks wonky */
 .summary > div {
    display: flex;
+   flex-direction: column;
    justify-content: space between;
 }
 
